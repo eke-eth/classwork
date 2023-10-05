@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    width: 99.1%;
+}
+::selection {
+    background-color: rgb(21, 5, 117);
+    color: white;
+}
+.float-left, .float-not, .float-right {
+    text-align: justify;
+    font-size: 1.2em;
+}
+footer:before{
+    content: ' \00A9';
+    
+}
+footer {
+    margin-top: 8px;
+    padding: 12px 10px;
+    text-align: center;
+    clear: both;
+    background-color: rgba(136, 121, 121, 0.854);
+}
+.float-left {
+    float: left;
+    width: 25%;
+}
+.float-not{
+    margin-left: 26%;
+    margin-right: 27%;
+}
+header{
+    text-align: center;
+}
+.float-right{
+    float: right;
+    width: 25%;
+    margin-bottom: 3px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(21, 5, 117);
+}
+li {
+    float: left;
+}
+li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+li a:active {
+    background-color: rgb(21, 5, 117);
+}
+li a:hover {
+    background-color: rgb(37, 112, 250);
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 3px 4px grey;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+button {
+    display: inline-block;
+    background-color: rgb(37, 112, 250);
+    transition: background-color 3s;
+    padding: 10px 8px;
+    border: none;
+    box-shadow: 2px 3px 2px gainsboro;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(24, 160, 85);
+
+}
