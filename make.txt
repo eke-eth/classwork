@@ -1,1 +1,5 @@
-this is the initial line of this file that was created
+this is the initial line of this file that was created.
+
+REQUIREMENTS
+1. all texts in caps lock
+2. itemization of other products
