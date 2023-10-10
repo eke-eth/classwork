@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Mouse Movement Events</title>
+    <script src="jquery file\jquery-3.7.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("p").mouseenter(function(){
+                $("p").hide();
+                alert("This paragragph has been hidden");
+            });
+        });
+    </script>
+</head>
+<body>
+    <h2>Mouse move event</h2>
+    <p>This is a paragragph that will disappear when the mouse moves over it</p>
+</body>
+</html>
